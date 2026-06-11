@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: northwind
+    schema: main
+
+    tables:
+      - name: Order
+      - name: Customer
+      - name: Order Detail
