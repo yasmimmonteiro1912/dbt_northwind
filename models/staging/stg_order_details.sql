@@ -1,7 +1,7 @@
 with
     order_details as (
         select *
-        from {{source ('northwind', 'Order Detail')}}
+        from {{source ('northwind', 'OrderDetail')}}
     )
 
 select * 
